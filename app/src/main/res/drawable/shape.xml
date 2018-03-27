@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by rallan203 on 3/22/2018.
+ * Matriculation Number: S1427235
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" android:padding="10dp">
+    <solid android:color="@color/LightGrey"/> <!-- this one is ths color of the Rounded Button -->
+    <corners
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        />
+</shape>

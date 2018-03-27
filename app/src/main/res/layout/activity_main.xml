@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Created by rallan203 on 3/22/2018.
+ * Matriculation Number: S1427235
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/LightSteelBlue">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <ImageView
+            android:src="@drawable/car1"
+            android:layout_marginTop="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="101dp" />
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Incidents"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@drawable/shape"
+            />
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_marginBottom="50px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Planned Roadworks"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@drawable/shape"
+            />
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--
+ * Search view is not fully fucntional, the widget is left to represent where the fucntionality would be
+-->
+
+        <TextView
+            android:id="@+id/urlInput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Please press what type of feed you would like to view."
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <!--
+         * The text view properly displays the parsed data
+        -->
+    </LinearLayout>
+</ScrollView>
